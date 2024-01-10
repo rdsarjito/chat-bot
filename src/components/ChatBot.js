@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import './index.css';
+import '../style/index.css';
+import chatbotIcon from '../img/chatbot-icon.png'
+import sendIcon from '../img/send-icon.png'
 import Message from './Massage';
-import chatbotIcon from './img/chatbot-icon.png'
-import sendIcon from './img/send-icon.png'
 
 function Chatbot() {
   const [messages, setMessages] = useState([]);
